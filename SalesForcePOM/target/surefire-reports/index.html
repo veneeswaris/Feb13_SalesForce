@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\User\git\DecDemo\SalesForcePOM\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.SalesForce.Tests.CreateAccountsTest" class="method navigator-link" hash-for-method="T14_CreateAccountReport">T14_CreateAccountReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.SalesForce.Tests.RandomTest" class="method navigator-link" hash-for-method="T37_BlockEventWeeklyOccurance">T37_BlockEventWeeklyOccurance</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.SalesForce.Tests.CreateOpportunitiesTest" class="method navigator-link" hash-for-method="TC19_TestQuarterlySummaryReport">TC19_TestQuarterlySummaryReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.SalesForce.Tests.SDFCLoginTest" class="method navigator-link" hash-for-method="TC1_invalidLogin">TC1_invalidLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.SalesForce.Tests.LeadsTest" class="method navigator-link" hash-for-method="TC24_TodayLeadsWork">TC24_TodayLeadsWork</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.SalesForce.Tests.ContactsTest" class="method navigator-link" hash-for-method="TC32_CreateNewContactsSaveNew">TC32_CreateNewContactsSaveNew</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.SalesForce.Tests.SDFCLoginTest" class="method navigator-link" hash-for-method="TC3_checkRememberMe">TC3_checkRememberMe</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.SalesForce.Tests.SDFCLoginTest" class="method navigator-link" hash-for-method="TC4B_forgotPassword">TC4B_forgotPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.SalesForce.Tests.SDFCLoginTest" class="method navigator-link" hash-for-method="TC4_forgotPassword">TC4_forgotPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.SalesForce.Tests.UserMenuDropDownTest" class="method navigator-link" hash-for-method="TC9_logOut">TC9_logOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.SalesForce.Tests.RandomTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="T37_BlockEventWeeklyOccurance">
+                  </a> <!-- T37_BlockEventWeeklyOccurance -->
+                  <span class="method-name">T37_BlockEventWeeklyOccurance</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.SalesForce.Tests.SDFCLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC1_invalidLogin">
+                  </a> <!-- TC1_invalidLogin -->
+                  <span class="method-name">TC1_invalidLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC3_checkRememberMe">
+                  </a> <!-- TC3_checkRememberMe -->
+                  <span class="method-name">TC3_checkRememberMe</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC4B_forgotPassword">
+                  </a> <!-- TC4B_forgotPassword -->
+                  <span class="method-name">TC4B_forgotPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC4_forgotPassword">
+                  </a> <!-- TC4_forgotPassword -->
+                  <span class="method-name">TC4_forgotPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.SalesForce.Tests.ContactsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC32_CreateNewContactsSaveNew">
+                  </a> <!-- TC32_CreateNewContactsSaveNew -->
+                  <span class="method-name">TC32_CreateNewContactsSaveNew</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.SalesForce.Tests.UserMenuDropDownTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC9_logOut">
+                  </a> <!-- TC9_logOut -->
+                  <span class="method-name">TC9_logOut</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.SalesForce.Tests.LeadsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC24_TodayLeadsWork">
+                  </a> <!-- TC24_TodayLeadsWork -->
+                  <span class="method-name">TC24_TodayLeadsWork</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.SalesForce.Tests.CreateAccountsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="T14_CreateAccountReport">
+                  </a> <!-- T14_CreateAccountReport -->
+                  <span class="method-name">T14_CreateAccountReport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.SalesForce.Tests.CreateOpportunitiesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC19_TestQuarterlySummaryReport">
+                  </a> <!-- TC19_TestQuarterlySummaryReport -->
+                  <span class="method-name">TC19_TestQuarterlySummaryReport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\User\git\DecDemo\SalesForcePOM\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.SalesForce.Tests.SDFCLoginTest&quot;/&gt;
+      &lt;class name=&quot;com.SalesForce.Tests.UserMenuDropDownTest&quot;/&gt;
+      &lt;class name=&quot;com.SalesForce.Tests.CreateAccountsTest&quot;/&gt;
+      &lt;class name=&quot;com.SalesForce.Tests.CreateOpportunitiesTest&quot;/&gt;
+      &lt;class name=&quot;com.SalesForce.Tests.LeadsTest&quot;/&gt;
+      &lt;class name=&quot;com.SalesForce.Tests.ContactsTest&quot;/&gt;
+      &lt;class name=&quot;com.SalesForce.Tests.RandomTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (7 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'T37_BlockEventWeeklyOccurance')
+data.setCell(0, 2, 'com.SalesForce.Tests.RandomTest')
+data.setCell(0, 3, 108342);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'T14_CreateAccountReport')
+data.setCell(1, 2, 'com.SalesForce.Tests.CreateAccountsTest')
+data.setCell(1, 3, 104336);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TC24_TodayLeadsWork')
+data.setCell(2, 2, 'com.SalesForce.Tests.LeadsTest')
+data.setCell(2, 3, 87026);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TC32_CreateNewContactsSaveNew')
+data.setCell(3, 2, 'com.SalesForce.Tests.ContactsTest')
+data.setCell(3, 3, 83139);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TC9_logOut')
+data.setCell(4, 2, 'com.SalesForce.Tests.UserMenuDropDownTest')
+data.setCell(4, 3, 53637);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TC3_checkRememberMe')
+data.setCell(5, 2, 'com.SalesForce.Tests.SDFCLoginTest')
+data.setCell(5, 3, 52208);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TC19_TestQuarterlySummaryReport')
+data.setCell(6, 2, 'com.SalesForce.Tests.CreateOpportunitiesTest')
+data.setCell(6, 3, 44056);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TC1_invalidLogin')
+data.setCell(7, 2, 'com.SalesForce.Tests.SDFCLoginTest')
+data.setCell(7, 3, 21635);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TC4B_forgotPassword')
+data.setCell(8, 2, 'com.SalesForce.Tests.SDFCLoginTest')
+data.setCell(8, 3, 11231);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'TC4_forgotPassword')
+data.setCell(9, 2, 'com.SalesForce.Tests.SDFCLoginTest')
+data.setCell(9, 3, 9947);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 9 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">39 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.SalesForce.Tests.RandomTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">TC33_HomeFirstLastName</span>
+                <br/>
+                <span class="ignored-method-name">TC35_allTabs</span>
+                <br/>
+                <span class="ignored-method-name">endUp</span>
+                <br/>
+                <span class="ignored-method-name">TC34_EditLastName</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">T36_BlockEvent</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.SalesForce.Tests.ContactsTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">TC25_CreateNewContacts</span>
+                <br/>
+                <span class="ignored-method-name">TC27_RecentlyCreatedContacts</span>
+                <br/>
+                <span class="ignored-method-name">endUp</span>
+                <br/>
+                <span class="ignored-method-name">TC26_CreateNewView</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">TC31_CreateNewViewCancel</span>
+                <br/>
+                <span class="ignored-method-name">TC30_CreateNewView_ErrorMessage</span>
+                <br/>
+                <span class="ignored-method-name">TC29_ViewContacts</span>
+                <br/>
+                <span class="ignored-method-name">TC28_MyContactsView</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.SalesForce.Tests.LeadsTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">TC22_LeadsDefaultView</span>
+                <br/>
+                <span class="ignored-method-name">TC20_LeadsTab</span>
+                <br/>
+                <span class="ignored-method-name">endUp</span>
+                <br/>
+                <span class="ignored-method-name">TC23_TodayLeadsWork</span>
+                <br/>
+                <span class="ignored-method-name">TC21_LeadsDropdown</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.SalesForce.Tests.UserMenuDropDownTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">TC5_userMenuDropdown</span>
+                <br/>
+                <span class="ignored-method-name">TC7_mySettingOption</span>
+                <br/>
+                <span class="ignored-method-name">TC6_myProfileOption</span>
+                <br/>
+                <span class="ignored-method-name">endUp</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">TC8_developerConsole</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.SalesForce.Tests.CreateAccountsTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">TC11_CreateNewView</span>
+                <br/>
+                <span class="ignored-method-name">T13_MergeAccounts</span>
+                <br/>
+                <span class="ignored-method-name">endUp</span>
+                <br/>
+                <span class="ignored-method-name">T12_EditView</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">TC10_CreateAccount</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.SalesForce.Tests.CreateOpportunitiesTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">TC17_TestOpportunityPipelineReport</span>
+                <br/>
+                <span class="ignored-method-name">TC18_StuckOpportunityPipelineReport</span>
+                <br/>
+                <span class="ignored-method-name">T15_Opportunities</span>
+                <br/>
+                <span class="ignored-method-name">endUp</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">T16_createNewOpportunities</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.SalesForce.Tests.SDFCLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">initialSetUp(chrome, public void com.SalesForce.Tests.SDFCLoginTest.TC1_invalidLogin() throws java.lang.Interrupt...)</span>
+                <span class="method-start">387 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC1_invalidLogin</span>
+                <span class="method-start">25031 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=TC1_invalidLogin status=SUCCESS method=SDFCLoginTest.TC1_invalidLogin()[pri:1, inst...)</span>
+                <span class="method-start">46673 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialSetUp(chrome, public void com.SalesForce.Tests.SDFCLoginTest.TC3_checkRememberMe() throws java.lang.Interr...)</span>
+                <span class="method-start">47230 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC3_checkRememberMe</span>
+                <span class="method-start">52750 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=TC3_checkRememberMe status=SUCCESS method=SDFCLoginTest.TC3_checkRememberMe()[pri:2...)</span>
+                <span class="method-start">104959 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialSetUp(chrome, public void com.SalesForce.Tests.SDFCLoginTest.TC4_forgotPassword() throws java.lang.Interru...)</span>
+                <span class="method-start">105884 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC4_forgotPassword</span>
+                <span class="method-start">112470 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=TC4_forgotPassword status=SUCCESS method=SDFCLoginTest.TC4_forgotPassword()[pri:3, ...)</span>
+                <span class="method-start">122417 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialSetUp(chrome, public void com.SalesForce.Tests.SDFCLoginTest.TC4B_forgotPassword() throws java.lang.Interr...)</span>
+                <span class="method-start">122888 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC4B_forgotPassword</span>
+                <span class="method-start">127634 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=TC4B_forgotPassword status=SUCCESS method=SDFCLoginTest.TC4B_forgotPassword()[pri:4...)</span>
+                <span class="method-start">138865 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.SalesForce.Tests.UserMenuDropDownTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initialSetUp(chrome, public void com.SalesForce.Tests.UserMenuDropDownTest.TC9_logOut())</span>
+                <span class="method-start">139467 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC9_logOut</span>
+                <span class="method-start">144861 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=TC9_logOut status=SUCCESS method=UserMenuDropDownTest.TC9_logOut()[pri:5, instance:...)</span>
+                <span class="method-start">198498 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.SalesForce.Tests.CreateAccountsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initialSetUp(chrome, public void com.SalesForce.Tests.CreateAccountsTest.T14_CreateAccountReport())</span>
+                <span class="method-start">198875 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">T14_CreateAccountReport</span>
+                <span class="method-start">203515 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=T14_CreateAccountReport status=SUCCESS method=CreateAccountsTest.T14_CreateAccountR...)</span>
+                <span class="method-start">307851 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.SalesForce.Tests.CreateOpportunitiesTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initialSetUp(chrome, public void com.SalesForce.Tests.CreateOpportunitiesTest.TC19_TestQuarterlySummaryReport())</span>
+                <span class="method-start">308536 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC19_TestQuarterlySummaryReport</span>
+                <span class="method-start">314736 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=TC19_TestQuarterlySummaryReport status=SUCCESS method=CreateOpportunitiesTest.TC19_...)</span>
+                <span class="method-start">358792 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.SalesForce.Tests.LeadsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initialSetUp(chrome, public void com.SalesForce.Tests.LeadsTest.TC24_TodayLeadsWork())</span>
+                <span class="method-start">359127 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC24_TodayLeadsWork</span>
+                <span class="method-start">364042 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=TC24_TodayLeadsWork status=SUCCESS method=LeadsTest.TC24_TodayLeadsWork()[pri:1, in...)</span>
+                <span class="method-start">451069 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.SalesForce.Tests.ContactsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initialSetUp(chrome, public void com.SalesForce.Tests.ContactsTest.TC32_CreateNewContactsSaveNew() throws java.la...)</span>
+                <span class="method-start">451491 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC32_CreateNewContactsSaveNew</span>
+                <span class="method-start">456845 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=TC32_CreateNewContactsSaveNew status=SUCCESS method=ContactsTest.TC32_CreateNewCont...)</span>
+                <span class="method-start">539985 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.SalesForce.Tests.RandomTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initialSetUp(chrome, public void com.SalesForce.Tests.RandomTest.T37_BlockEventWeeklyOccurance())</span>
+                <span class="method-start">540344 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">T37_BlockEventWeeklyOccurance</span>
+                <span class="method-start">545047 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=T37_BlockEventWeeklyOccurance status=SUCCESS method=RandomTest.T37_BlockEventWeekly...)</span>
+                <span class="method-start">653390 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.SalesForce.Tests.SDFCLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">endUp</span>
+                <span class="method-start">653815 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="39" total="49" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-13T18:42:49 CST" name="Suite" finished-at="2022-02-13T18:53:43 CST" duration-ms="654327">
+    <groups>
+    </groups>
+    <test started-at="2022-02-13T18:42:49 CST" name="Test" finished-at="2022-02-13T18:53:43 CST" duration-ms="654327">
+      <class name="com.SalesForce.Tests.RandomTest">
+        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.SalesForce.Tests.RandomTest@7ee8290b]" started-at="2022-02-13T18:51:49 CST" name="initialSetUp" finished-at="2022-02-13T18:51:54 CST" duration-ms="4703" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.SalesForce.Tests.RandomTest.T37_BlockEventWeeklyOccurance()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialSetUp -->
+        <test-method signature="T37_BlockEventWeeklyOccurance()[pri:1, instance:com.SalesForce.Tests.RandomTest@7ee8290b]" started-at="2022-02-13T18:51:54 CST" name="T37_BlockEventWeeklyOccurance" finished-at="2022-02-13T18:53:42 CST" duration-ms="108342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T37_BlockEventWeeklyOccurance -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.SalesForce.Tests.RandomTest@7ee8290b]" started-at="2022-02-13T18:53:42 CST" name="tearDown" finished-at="2022-02-13T18:53:42 CST" duration-ms="424" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=T37_BlockEventWeeklyOccurance status=SUCCESS method=RandomTest.T37_BlockEventWeeklyOccurance()[pri:1, instance:com.SalesForce.Tests.RandomTest@7ee8290b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.SalesForce.Tests.RandomTest -->
+      <class name="com.SalesForce.Tests.UserMenuDropDownTest">
+        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.SalesForce.Tests.UserMenuDropDownTest@385e9564]" started-at="2022-02-13T18:45:08 CST" name="initialSetUp" finished-at="2022-02-13T18:45:13 CST" duration-ms="5394" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.SalesForce.Tests.UserMenuDropDownTest.TC9_logOut()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialSetUp -->
+        <test-method signature="TC9_logOut()[pri:5, instance:com.SalesForce.Tests.UserMenuDropDownTest@385e9564]" started-at="2022-02-13T18:45:13 CST" name="TC9_logOut" finished-at="2022-02-13T18:46:07 CST" duration-ms="53637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC9_logOut -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.SalesForce.Tests.UserMenuDropDownTest@385e9564]" started-at="2022-02-13T18:46:07 CST" name="tearDown" finished-at="2022-02-13T18:46:08 CST" duration-ms="376" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC9_logOut status=SUCCESS method=UserMenuDropDownTest.TC9_logOut()[pri:5, instance:com.SalesForce.Tests.UserMenuDropDownTest@385e9564] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.SalesForce.Tests.UserMenuDropDownTest -->
+      <class name="com.SalesForce.Tests.CreateOpportunitiesTest">
+        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.SalesForce.Tests.CreateOpportunitiesTest@8c3b9d]" started-at="2022-02-13T18:47:57 CST" name="initialSetUp" finished-at="2022-02-13T18:48:03 CST" duration-ms="6200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.SalesForce.Tests.CreateOpportunitiesTest.TC19_TestQuarterlySummaryReport()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialSetUp -->
+        <test-method signature="TC19_TestQuarterlySummaryReport()[pri:5, instance:com.SalesForce.Tests.CreateOpportunitiesTest@8c3b9d]" started-at="2022-02-13T18:48:03 CST" name="TC19_TestQuarterlySummaryReport" finished-at="2022-02-13T18:48:47 CST" duration-ms="44056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC19_TestQuarterlySummaryReport -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.SalesForce.Tests.CreateOpportunitiesTest@8c3b9d]" started-at="2022-02-13T18:48:47 CST" name="tearDown" finished-at="2022-02-13T18:48:48 CST" duration-ms="334" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC19_TestQuarterlySummaryReport status=SUCCESS method=CreateOpportunitiesTest.TC19_TestQuarterlySummaryReport()[pri:5, instance:com.SalesForce.Tests.CreateOpportunitiesTest@8c3b9d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.SalesForce.Tests.CreateOpportunitiesTest -->
+      <class name="com.SalesForce.Tests.LeadsTest">
+        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.SalesForce.Tests.LeadsTest@4c39bec8]" started-at="2022-02-13T18:48:48 CST" name="initialSetUp" finished-at="2022-02-13T18:48:53 CST" duration-ms="4915" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.SalesForce.Tests.LeadsTest.TC24_TodayLeadsWork()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialSetUp -->
+        <test-method signature="TC24_TodayLeadsWork()[pri:1, instance:com.SalesForce.Tests.LeadsTest@4c39bec8]" started-at="2022-02-13T18:48:53 CST" name="TC24_TodayLeadsWork" finished-at="2022-02-13T18:50:20 CST" duration-ms="87026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC24_TodayLeadsWork -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.SalesForce.Tests.LeadsTest@4c39bec8]" started-at="2022-02-13T18:50:20 CST" name="tearDown" finished-at="2022-02-13T18:50:20 CST" duration-ms="421" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC24_TodayLeadsWork status=SUCCESS method=LeadsTest.TC24_TodayLeadsWork()[pri:1, instance:com.SalesForce.Tests.LeadsTest@4c39bec8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.SalesForce.Tests.LeadsTest -->
+      <class name="com.SalesForce.Tests.CreateAccountsTest">
+        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.SalesForce.Tests.CreateAccountsTest@5b94b04d]" started-at="2022-02-13T18:46:08 CST" name="initialSetUp" finished-at="2022-02-13T18:46:12 CST" duration-ms="4640" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.SalesForce.Tests.CreateAccountsTest.T14_CreateAccountReport()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialSetUp -->
+        <test-method signature="T14_CreateAccountReport()[pri:5, instance:com.SalesForce.Tests.CreateAccountsTest@5b94b04d]" started-at="2022-02-13T18:46:12 CST" name="T14_CreateAccountReport" finished-at="2022-02-13T18:47:56 CST" duration-ms="104336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T14_CreateAccountReport -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.SalesForce.Tests.CreateAccountsTest@5b94b04d]" started-at="2022-02-13T18:47:56 CST" name="tearDown" finished-at="2022-02-13T18:47:57 CST" duration-ms="684" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=T14_CreateAccountReport status=SUCCESS method=CreateAccountsTest.T14_CreateAccountReport()[pri:5, instance:com.SalesForce.Tests.CreateAccountsTest@5b94b04d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.SalesForce.Tests.CreateAccountsTest -->
+      <class name="com.SalesForce.Tests.SDFCLoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.SalesForce.Tests.SDFCLoginTest@4961f6af]" started-at="2022-02-13T18:42:49 CST" name="setUp" finished-at="2022-02-13T18:42:49 CST" duration-ms="350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.SalesForce.Tests.SDFCLoginTest@4961f6af]" started-at="2022-02-13T18:42:49 CST" name="initialSetUp" finished-at="2022-02-13T18:43:14 CST" duration-ms="24643" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.SalesForce.Tests.SDFCLoginTest.TC1_invalidLogin() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialSetUp -->
+        <test-method signature="TC1_invalidLogin()[pri:1, instance:com.SalesForce.Tests.SDFCLoginTest@4961f6af]" started-at="2022-02-13T18:43:14 CST" name="TC1_invalidLogin" finished-at="2022-02-13T18:43:35 CST" duration-ms="21635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1_invalidLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.SalesForce.Tests.SDFCLoginTest@4961f6af]" started-at="2022-02-13T18:43:35 CST" name="tearDown" finished-at="2022-02-13T18:43:36 CST" duration-ms="554" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC1_invalidLogin status=SUCCESS method=SDFCLoginTest.TC1_invalidLogin()[pri:1, instance:com.SalesForce.Tests.SDFCLoginTest@4961f6af] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.SalesForce.Tests.SDFCLoginTest@4961f6af]" started-at="2022-02-13T18:43:36 CST" name="initialSetUp" finished-at="2022-02-13T18:43:41 CST" duration-ms="5520" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.SalesForce.Tests.SDFCLoginTest.TC3_checkRememberMe() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialSetUp -->
+        <test-method signature="TC3_checkRememberMe()[pri:2, instance:com.SalesForce.Tests.SDFCLoginTest@4961f6af]" started-at="2022-02-13T18:43:41 CST" name="TC3_checkRememberMe" finished-at="2022-02-13T18:44:34 CST" duration-ms="52208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC3_checkRememberMe -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.SalesForce.Tests.SDFCLoginTest@4961f6af]" started-at="2022-02-13T18:44:34 CST" name="tearDown" finished-at="2022-02-13T18:44:35 CST" duration-ms="924" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC3_checkRememberMe status=SUCCESS method=SDFCLoginTest.TC3_checkRememberMe()[pri:2, instance:com.SalesForce.Tests.SDFCLoginTest@4961f6af] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.SalesForce.Tests.SDFCLoginTest@4961f6af]" started-at="2022-02-13T18:44:35 CST" name="initialSetUp" finished-at="2022-02-13T18:44:41 CST" duration-ms="6586" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.SalesForce.Tests.SDFCLoginTest.TC4_forgotPassword() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialSetUp -->
+        <test-method signature="TC4_forgotPassword()[pri:3, instance:com.SalesForce.Tests.SDFCLoginTest@4961f6af]" started-at="2022-02-13T18:44:41 CST" name="TC4_forgotPassword" finished-at="2022-02-13T18:44:51 CST" duration-ms="9947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC4_forgotPassword -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.SalesForce.Tests.SDFCLoginTest@4961f6af]" started-at="2022-02-13T18:44:51 CST" name="tearDown" finished-at="2022-02-13T18:44:52 CST" duration-ms="471" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC4_forgotPassword status=SUCCESS method=SDFCLoginTest.TC4_forgotPassword()[pri:3, instance:com.SalesForce.Tests.SDFCLoginTest@4961f6af] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.SalesForce.Tests.SDFCLoginTest@4961f6af]" started-at="2022-02-13T18:44:52 CST" name="initialSetUp" finished-at="2022-02-13T18:44:56 CST" duration-ms="4746" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.SalesForce.Tests.SDFCLoginTest.TC4B_forgotPassword() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialSetUp -->
+        <test-method signature="TC4B_forgotPassword()[pri:4, instance:com.SalesForce.Tests.SDFCLoginTest@4961f6af]" started-at="2022-02-13T18:44:56 CST" name="TC4B_forgotPassword" finished-at="2022-02-13T18:45:08 CST" duration-ms="11231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC4B_forgotPassword -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.SalesForce.Tests.SDFCLoginTest@4961f6af]" started-at="2022-02-13T18:45:08 CST" name="tearDown" finished-at="2022-02-13T18:45:08 CST" duration-ms="599" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC4B_forgotPassword status=SUCCESS method=SDFCLoginTest.TC4B_forgotPassword()[pri:4, instance:com.SalesForce.Tests.SDFCLoginTest@4961f6af] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="endUp()[pri:0, instance:com.SalesForce.Tests.SDFCLoginTest@4961f6af]" started-at="2022-02-13T18:53:42 CST" name="endUp" finished-at="2022-02-13T18:53:43 CST" duration-ms="508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endUp -->
+      </class> <!-- com.SalesForce.Tests.SDFCLoginTest -->
+      <class name="com.SalesForce.Tests.ContactsTest">
+        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.SalesForce.Tests.ContactsTest@f79e]" started-at="2022-02-13T18:50:20 CST" name="initialSetUp" finished-at="2022-02-13T18:50:25 CST" duration-ms="5354" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.SalesForce.Tests.ContactsTest.TC32_CreateNewContactsSaveNew() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialSetUp -->
+        <test-method signature="TC32_CreateNewContactsSaveNew()[pri:1, instance:com.SalesForce.Tests.ContactsTest@f79e]" started-at="2022-02-13T18:50:25 CST" name="TC32_CreateNewContactsSaveNew" finished-at="2022-02-13T18:51:49 CST" duration-ms="83139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC32_CreateNewContactsSaveNew -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.SalesForce.Tests.ContactsTest@f79e]" started-at="2022-02-13T18:51:49 CST" name="tearDown" finished-at="2022-02-13T18:51:49 CST" duration-ms="358" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC32_CreateNewContactsSaveNew status=SUCCESS method=ContactsTest.TC32_CreateNewContactsSaveNew()[pri:1, instance:com.SalesForce.Tests.ContactsTest@f79e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.SalesForce.Tests.ContactsTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
